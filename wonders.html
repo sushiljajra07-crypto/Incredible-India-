@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wonders of India | Incredible India</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Incredible India</a>
+
+    <button class="navbar-toggler" type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="wonders.html">Wonders</a></li>
+        <li class="nav-item"><a class="nav-link" href="states.html">States</a></li>
+        <li class="nav-item"><a class="nav-link" href="heritage.html">Heritage</a></li>
+        <li class="nav-item"><a class="nav-link" href="festivals.html">Festivals</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Banner -->
+<section class="py-5 bg-dark text-white text-center">
+    <div class="container">
+        <h1 class="fw-bold">Wonders of India</h1>
+        <p class="lead mb-0">
+            Explore the architectural marvels that showcase India's artistic
+            brilliance, spiritual depth, and timeless craftsmanship.
+        </p>
+    </div>
+</section>
+
+<!-- Wonders Grid -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+
+            <!-- Taj Mahal -->
+            <div class="col-lg-4 mb-4 reveal">
+                <div class="card shadow h-100">
+                    <img src="./images/tajmahal.png" class="card-img-top" alt="Taj Mahal">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Taj Mahal</h5>
+                        <p class="card-text">
+                            A white marble mausoleum in Agra, built by Emperor Shah Jahan
+                            in memory of his wife Mumtaz Mahal.
+                        </p>
+                        <button class="btn btn-india-orange mt-auto" data-bs-toggle="modal" data-bs-target="#tajMahalModal">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hawa Mahal -->
+            <div class="col-lg-4 mb-4 reveal">
+                <div class="card shadow h-100">
+                    <img src="./images/hawamahal.png" class="card-img-top" alt="Hawa Mahal">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Hawa Mahal</h5>
+                        <p class="card-text">
+                            Jaipur's "Palace of Winds," a five-story pink sandstone
+                            facade with 953 intricately carved windows.
+                        </p>
+                        <button class="btn btn-india-orange mt-auto" data-bs-toggle="modal" data-bs-target="#hawaMahalModal">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Golden Temple -->
+            <div class="col-lg-4 mb-4 reveal">
+                <div class="card shadow h-100">
+                    <img src="./images/goldentemple.png" class="card-img-top" alt="Golden Temple">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Golden Temple</h5>
+                        <p class="card-text">
+                            The holiest Sikh shrine in Amritsar, its upper floors
+                            covered in gold and surrounded by a sacred pool.
+                        </p>
+                        <button class="btn btn-india-orange mt-auto" data-bs-toggle="modal" data-bs-target="#goldenTempleModal">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hampi -->
+            <div class="col-lg-4 mb-4 reveal">
+                <div class="card shadow h-100">
+                    <img src="./images/hampi.png" class="card-img-top" alt="Hampi">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Hampi</h5>
+                        <p class="card-text">
+                            Ruins of the once-mighty Vijayanagara Empire in Karnataka,
+                            featuring the iconic stone chariot at Vittala Temple.
+                        </p>
+                        <button class="btn btn-india-orange mt-auto" data-bs-toggle="modal" data-bs-target="#hampiModal">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Konark Sun Temple -->
+            <div class="col-lg-4 mb-4 reveal">
+                <div class="card shadow h-100">
+                    <img src="./images/konark.png" class="card-img-top" alt="Konark Sun Temple">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Konark Sun Temple</h5>
+                        <p class="card-text">
+                            A 13th-century temple in Odisha shaped like a colossal
+                            chariot dedicated to the Sun God, Surya.
+                        </p>
+                        <button class="btn btn-india-orange mt-auto" data-bs-toggle="modal" data-bs-target="#konarkModal">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Khajuraho -->
+            <div class="col-lg-4 mb-4 reveal">
+                <div class="card shadow h-100">
+                    <img src="./images/khajuraho.png" class="card-img-top" alt="Khajuraho Temples">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Khajuraho Temples</h5>
+                        <p class="card-text">
+                            A group of Hindu and Jain temples in Madhya Pradesh,
+                            famed for their intricate sculptural artistry.
+                        </p>
+                        <button class="btn btn-india-orange mt-auto" data-bs-toggle="modal" data-bs-target="#khajurahoModal">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Meenakshi Temple -->
+            <div class="col-lg-4 mb-4 reveal">
+                <div class="card shadow h-100">
+                    <img src="./images/meenakshitemple.png" class="card-img-top" alt="Meenakshi Temple">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Meenakshi Temple</h5>
+                        <p class="card-text">
+                            A vibrant temple complex in Madurai, Tamil Nadu, famous for its
+                            towering, colorfully painted gopurams (gateway towers).
+                        </p>
+                        <button class="btn btn-india-orange mt-auto" data-bs-toggle="modal" data-bs-target="#meenakshiModal">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Qutub Minar -->
+            <div class="col-lg-4 mb-4 reveal">
+                <div class="card shadow h-100">
+                    <img src="./images/qutubminar.png" class="card-img-top" alt="Qutub Minar">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Qutub Minar</h5>
+                        <p class="card-text">
+                            A 240-foot tall minaret in Delhi, showcasing exquisite
+                            Indo-Islamic architecture and intricate carvings.
+                        </p>
+                        <button class="btn btn-india-orange mt-auto" data-bs-toggle="modal" data-bs-target="#qutubMinarModal">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gateway of India -->
+            <div class="col-lg-4 mb-4 reveal">
+                <div class="card shadow h-100">
+                    <img src="./images/gatewayofindia.png" class="card-img-top" alt="Gateway of India">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Gateway of India</h5>
+                        <p class="card-text">
+                            An Indo-Saracenic monument overlooking the Arabian Sea
+                            in Mumbai, built to commemorate King George V's visit.
+                        </p>
+                        <button class="btn btn-india-orange mt-auto" data-bs-toggle="modal" data-bs-target="#gatewayModal">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===================== MODALS ===================== -->
+
+<!-- Taj Mahal Modal -->
+<div class="modal fade" id="tajMahalModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Taj Mahal</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./images/tajmahal.png" class="img-fluid rounded mb-3" alt="Taj Mahal">
+        <p><strong>Location:</strong> Agra, Uttar Pradesh</p>
+        <p><strong>Built:</strong> 1632–1653 by Emperor Shah Jahan</p>
+        <p>
+            The Taj Mahal is a white marble mausoleum built as a tribute to
+            eternal love, in memory of Shah Jahan's wife, Mumtaz Mahal. It is
+            renowned for changing colors throughout the day — pink at dawn,
+            white in daylight, and golden under the moon. It is a UNESCO World
+            Heritage Site and one of the New Seven Wonders of the World.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Hawa Mahal Modal -->
+<div class="modal fade" id="hawaMahalModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Hawa Mahal</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./images/hawamahal.png" class="img-fluid rounded mb-3" alt="Hawa Mahal">
+        <p><strong>Location:</strong> Jaipur, Rajasthan</p>
+        <p><strong>Built:</strong> 1799 by Maharaja Sawai Pratap Singh</p>
+        <p>
+            Built from pink and red sandstone, the Hawa Mahal has 953 small
+            windows called "jharokhas," originally designed to let royal women
+            observe street festivities without being seen. Its honeycomb-like
+            facade is one of the most photographed structures in India.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Golden Temple Modal -->
+<div class="modal fade" id="goldenTempleModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Golden Temple</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./images/goldentemple.png" class="img-fluid rounded mb-3" alt="Golden Temple">
+        <p><strong>Location:</strong> Amritsar, Punjab</p>
+        <p><strong>Built:</strong> Completed in 1604</p>
+        <p>
+            Also known as Harmandir Sahib, the Golden Temple is the holiest
+            gurdwara of Sikhism. Its upper floors are covered in gold-plated
+            copper, and it sits at the center of the sacred Amrit Sarovar
+            (pool of nectar). It welcomes people of all faiths and serves free
+            meals to thousands daily through its community kitchen (langar).
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Hampi Modal -->
+<div class="modal fade" id="hampiModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Hampi</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./images/hampi.png" class="img-fluid rounded mb-3" alt="Hampi">
+        <p><strong>Location:</strong> Karnataka</p>
+        <p><strong>Era:</strong> 14th–16th century, Vijayanagara Empire</p>
+        <p>
+            Hampi was once the capital of one of the wealthiest empires in the
+            world. Today its ruins span over 1,600 monuments, including the
+            famous stone chariot at Vittala Temple, which is even featured on
+            India's 50-rupee note. It is a UNESCO World Heritage Site.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Konark Modal -->
+<div class="modal fade" id="konarkModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Konark Sun Temple</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./images/konark.png" class="img-fluid rounded mb-3" alt="Konark Sun Temple">
+        <p><strong>Location:</strong> Konark, Odisha</p>
+        <p><strong>Built:</strong> 13th century by King Narasimhadeva I</p>
+        <p>
+            Designed as a colossal stone chariot with 24 elaborately carved
+            wheels pulled by seven horses, the Konark Sun Temple is dedicated
+            to the Sun God, Surya. It is also known as the "Black Pagoda" and
+            is a UNESCO World Heritage Site.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Khajuraho Modal -->
+<div class="modal fade" id="khajurahoModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Khajuraho Temples</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./images/khajuraho.png" class="img-fluid rounded mb-3" alt="Khajuraho Temples">
+        <p><strong>Location:</strong> Madhya Pradesh</p>
+        <p><strong>Built:</strong> 950–1050 AD by the Chandela dynasty</p>
+        <p>
+            Originally a complex of over 80 temples (25 survive today),
+            Khajuraho is famous for its intricate stone carvings depicting
+            everyday life, mythology, and art. It is a UNESCO World Heritage
+            Site combining Hindu and Jain temple architecture.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Meenakshi Temple Modal -->
+<div class="modal fade" id="meenakshiModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Meenakshi Temple</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./images/meenakshitemple.png" class="img-fluid rounded mb-3" alt="Meenakshi Temple">
+        <p><strong>Location:</strong> Madurai, Tamil Nadu</p>
+        <p><strong>Built:</strong> Mainly 1623–1655, on a site dating back over 2,000 years</p>
+        <p>
+            Dedicated to Goddess Meenakshi (a form of Parvati) and her consort
+            Sundareswarar (Shiva), this temple spans around 45 acres and is
+            famous for its towering gopurams covered in thousands of vividly
+            painted sculptures depicting Hindu mythology.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Qutub Minar Modal -->
+<div class="modal fade" id="qutubMinarModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Qutub Minar</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./images/qutubminar.png" class="img-fluid rounded mb-3" alt="Qutub Minar">
+        <p><strong>Location:</strong> Delhi</p>
+        <p><strong>Built:</strong> Started 1192 by Qutb-ud-din Aibak</p>
+        <p>
+            Standing at 240 feet, Qutub Minar is the tallest brick minaret in
+            the world. Its tapering tower is covered in intricate carvings and
+            verses from the Quran, reflecting early Indo-Islamic architecture.
+            It is a UNESCO World Heritage Site.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Gateway of India Modal -->
+<div class="modal fade" id="gatewayModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Gateway of India</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./images/gatewayofindia.png" class="img-fluid rounded mb-3" alt="Gateway of India">
+        <p><strong>Location:</strong> Mumbai, Maharashtra</p>
+        <p><strong>Built:</strong> Completed in 1924</p>
+        <p>
+            An Indo-Saracenic monument built to commemorate the visit of King
+            George V and Queen Mary in 1911. It overlooks the Arabian Sea and
+            was historically the ceremonial entry point for British officials
+            arriving in India.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <h4>Incredible India</h4>
+        <p>Discover India's heritage, culture, traditions and breathtaking destinations.</p>
+        <p class="mb-0">© 2026 Incredible India. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<button id="backToTop" class="btn btn-india-orange rounded-circle position-fixed">
+    ↑
+</button>
+<script>
+    const revealElements = document.querySelectorAll('.reveal');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+                observer.unobserve(entry.target); // animate only once
+            }
+        });
+    }, {
+        threshold: 0.15 // triggers when 15% of the card is visible
+    });
+
+    revealElements.forEach(el => observer.observe(el));
+</script>
+<script>
+    const backToTopBtn = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            backToTopBtn.style.display = 'block';
+        } else {
+            backToTopBtn.style.display = 'none';
+        }
+    });
+
+    backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+</script>
+</body>
+</html>
